@@ -1,4 +1,4 @@
-local bbs2util = require "bbs2util"
+local soundeffectsutil = require "soundeffectsutil"
 
 function data()
 return {
@@ -16,11 +16,11 @@ return {
 		return {		
 			tracks = {
 				{ 
-					gain = bbs2util.sampleCurve({ { 0.0, 0.0 }, { 1.0, 1.2 } }, input.speed01),
-					pitch = bbs2util.sampleCurve({ { 0.0, 0.9 }, { 0.57, 1.00 }, { 1.0, 1.035 } }, input.speed01)
+					gain = soundeffectsutil.sampleCurve({ { 0.0, 0.0 }, { 1.0, 1.2 } }, input.speed01),
+					pitch = soundeffectsutil.sampleCurve({ { 0.0, 0.9 }, { 0.57, 1.00 }, { 1.0, 1.035 } }, input.speed01)
 				},
-				bbs2util.squeal(input.speed, input.sideForce, input.maxSideForce),
-				bbs2util.brake(input.speed, input.brakeDecel, 0.4)
+				soundeffectsutil.squeal(input.speed, input.sideForce, input.maxSideForce),
+				soundeffectsutil.brake(input.speed, input.brakeDecel, 0.4)
 			},
 			events = {
 				openDoors = { gain = 1.00, pitch = 1.0 },
