@@ -440,7 +440,7 @@ return {
 		},
 		availability = {
 			yearFrom = 2018,
-			yearTo = 2025,
+			--yearTo = 2030,
 		},
 		cost = {
 			price = -1,
