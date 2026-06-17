@@ -113,7 +113,7 @@ return {
 						},
 						{ 
 							materials = { "mat/bvmz406_2/innen.mtl", },
-							mesh = "msh/bvmz406_2/innen_lod0.msh",
+							mesh = "msh/bpmzf403_5/innen_lod0.msh",
 							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
