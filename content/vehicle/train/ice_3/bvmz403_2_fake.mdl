@@ -80,13 +80,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad_lod0_12",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad_lod0_13",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -228,13 +228,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad_lod1_12",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad_lod1_13",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -440,7 +440,7 @@ return {
 			},
 			railVehicle = { 
 				config = { 
-					axles = { "rad_lod0_12", "rad_lod0_13", "rad_lod0_16", "rad_lod0_17", "rad_lod1_12", "rad_lod1_13", "rad_lod1_16", "rad_lod1_17", "rad_lod2_8", "rad_lod2_9", "rad_lod2_12", "rad_lod2_13", },
+					axles = { "a3", "a4", "rad_lod0_16", "rad_lod0_17", "a3", "a4", "rad_lod1_16", "rad_lod1_17", "rad_lod2_8", "rad_lod2_9", "rad_lod2_12", "rad_lod2_13", },
 					fakeBogies = { },
 				},
 			},

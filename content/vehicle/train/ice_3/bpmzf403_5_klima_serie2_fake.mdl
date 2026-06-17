@@ -1,8 +1,8 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 12.9818, 1.45884, 4.26582, },
-			bbMin = { -12.8377, -1.45884, -0.05485, },
+			bbMax = { 37.25, 9.0605, 6.5, },
+			bbMin = { -15.5, -9.0605, -10.9968, },
 		},
 		collider = { 
 			params = { 
@@ -56,13 +56,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad_lod0_8",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad_lod0_9",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -80,13 +80,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad_lod0_12",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad_lod0_13",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -262,13 +262,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad_lod1_8",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad_lod1_9",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -286,13 +286,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad_lod1_12",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad_lod1_13",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -438,13 +438,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad_lod2_6",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad_lod2_7",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -462,13 +462,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad_lod2_10",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad_lod2_11",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -614,13 +614,17 @@ return {
 				weightEmpty = 51000,
 				weightMaxPayload = 0,
 			},
+			extent = { 
+				bbMax = { 12.9818, 1.45884, 4.26582, },
+				bbMin = { -12.8377, -1.45884, -0.05485, },
+			},
 			maintenance = { 
 				lifespan = 36525,
 				runningCosts = -1,
 			},
 			railVehicle = { 
 				config = { 
-					axles = { "rad_lod0_8", "rad_lod0_9", "rad_lod0_12", "rad_lod0_13", "rad_lod1_8", "rad_lod1_9", "rad_lod1_12", "rad_lod1_13", "rad_lod2_6", "rad_lod2_7", "rad_lod2_10", "rad_lod2_11", },
+					axles = { "a1", "a2", "a3", "a4", },
 					fakeBogies = { },
 				},
 			},

@@ -18,7 +18,7 @@ return {
 						{ 
 							materials = { "mat/brmz406_3/rumpf_gruen.mtl", },
 							mesh = "msh/brmz403_3/rumpf_lod0.msh",
-							name = "rumpf",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -56,13 +56,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad_lod0_8",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad_lod0_9",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -84,13 +84,13 @@ return {
 						{ 
 							materials = { "mat/brmz403_3/innen.mtl", },
 							mesh = "msh/brmz403_3/innen_lod0.msh",
-							name = "innen",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/brmz403_3/innen.mtl", },
 							mesh = "msh/brmz403_3/sitze_bistro_lod0.msh",
-							name = "innen",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -130,7 +130,7 @@ return {
 						{ 
 							materials = { "mat/brmz406_3/rumpf_gruen.mtl", },
 							mesh = "msh/brmz403_3/rumpf_lod1.msh",
-							name = "rumpf",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -168,13 +168,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad_lod1_8",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad_lod1_9",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -196,13 +196,13 @@ return {
 						{ 
 							materials = { "mat/brmz403_3/innen.mtl", },
 							mesh = "msh/brmz403_3/innen_lod1.msh",
-							name = "innen",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/brmz403_3/innen.mtl", },
 							mesh = "msh/brmz403_3/sitze_bistro_lod1.msh",
-							name = "innen",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -230,7 +230,7 @@ return {
 						{ 
 							materials = { "mat/brmz406_3/rumpf_gruen.mtl", },
 							mesh = "msh/brmz403_3/rumpf_lod2.msh",
-							name = "rumpf",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -338,13 +338,39 @@ return {
 				weightEmpty = 57000,
 				weightMaxPayload = 0,
 			},
+			extent = { 
+				bbMax = { 12.39, 1.45884, 4.26582, },
+				bbMin = { -12.39, -1.45884, -0.05485, },
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMax = 89,
+						angleMin = 9,
+						color = { 1, 0.926131, 0.580392, },
+						fadeOutStart = 600,
+						invertMask = false,
+						length = 13,
+						lightId = "",
+						mask = 32,
+						meshId = "interior",
+						mode = "LIGHT",
+						radius = 3,
+						strength = 20,
+						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 3.5, 1, },
+						type = "CYLINDRICAL",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+				},
+			},
 			maintenance = { 
 				lifespan = 36525,
 				runningCosts = -1,
 			},
 			railVehicle = { 
 				config = { 
-					axles = { "rad_lod0_4", "rad_lod0_5", "rad_lod0_8", "rad_lod0_9", "rad_lod1_4", "rad_lod1_5", "rad_lod1_8", "rad_lod1_9", "rad_lod2_4", "rad_lod2_5", "rad_lod2_8", "rad_lod2_9", },
+					axles = { "rad_lod0_4", "rad_lod0_5", "a1", "a2", "rad_lod1_4", "rad_lod1_5", "a1", "a2", "rad_lod2_4", "rad_lod2_5", "rad_lod2_8", "rad_lod2_9", },
 					fakeBogies = { },
 				},
 			},
@@ -355,144 +381,144 @@ return {
 					{ 
 						animation = "idle",
 						crew = true,
-						group = "rumpf",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5, -0.3, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.1, -1.1, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.1, -0.55, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9, -1.1, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9, -0.55, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.1, 1.1, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9, 1.1, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.1, -1.1, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.1, -0.55, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7, -1.1, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7, -0.55, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.1, 1.1, 1.2, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7, 1.1, 1.2, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 5.1, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 5.5, 0.5, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 5.1, -0.5, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 5.5, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 3.1, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 3.5, 0.5, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 3.1, -0.5, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 3.5, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, -7.1, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, -7.5, 0.5, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, -6.8, 0.5, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, -7.1, -0.5, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, -7.5, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "idle",
-						group = "rumpf",
+						group = "body",
 						transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, -6.5, -1.15, 1.3, 1, },
 					},
 				},
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/ice3_wagen",
+					name = "sound/ice3_wagen.snd",
 				},
 			},
 			transformatorConfig = { 
