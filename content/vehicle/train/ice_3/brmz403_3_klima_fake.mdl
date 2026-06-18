@@ -1,41 +1,41 @@
 function data()
-return { 
-		boundingInfo = { 
+return {
+		boundingInfo = {
 			bbMax = { 12.39, 1.45884, 4.26582, },
 			bbMin = { -12.39, -1.45884, -0.05485, },
 		},
-		collider = { 
-			params = { 
+		collider = {
+			params = {
 				halfExtents = { 12.39, 1.45884, 2.16034, },
 			},
 			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.10548, 1, },
 			type = "BOX",
 		},
 		lods = {
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/brmz403_3/rumpf_lod0.msh",
 							name = "rumpf",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							children = {
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/bogie1_lod0.msh",
 									name = "bogie1_lod0_3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.576094, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
 									name = "rad_lod0_4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
 									name = "rad_lod0_5",
@@ -45,21 +45,21 @@ return {
 							name = "group_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.36585, 0, 0, 1, },
 						},
-						{ 
+						{
 							children = {
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/bogie1_lod0.msh",
 									name = "bogie1_lod0_7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.542028, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
 									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
 									name = "a2",
@@ -69,43 +69,43 @@ return {
 							name = "group_6",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.42585, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/shared/klima1_lod0.msh",
 							name = "klima",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.62603, 0.068545, 3.97, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/glas.mtl", },
 							mesh = "msh/brmz403_3/scheiben_lod0.msh",
 							name = "fenster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/innen.mtl", },
 							mesh = "msh/brmz403_3/innen_lod0.msh",
 							name = "innen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/innen.mtl", },
-							mesh = "msh/sitze_restaurant_lod0.msh",
+							mesh = "msh/brmz403_3/sitze_restaurant_lod0.msh",
 							name = "innen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/shared/rumpf_ohne_lod0.msh",
 							name = "nase",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/shared/isolator1_lod0.msh",
 							name = "nase",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/shared/isolator2_lod0.msh",
 							name = "nase",
@@ -118,30 +118,30 @@ return {
 				visibleFrom = 0,
 				visibleTo = 200,
 			},
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/brmz403_3/rumpf_lod1.msh",
 							name = "rumpf",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							children = {
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/bogie1_lod1.msh",
 									name = "bogie1_lod1_3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.576094, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
 									name = "rad_lod1_4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
 									name = "rad_lod1_5",
@@ -151,21 +151,21 @@ return {
 							name = "group_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.36585, 0, 0, 1, },
 						},
-						{ 
+						{
 							children = {
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/bogie1_lod1.msh",
 									name = "bogie1_lod1_7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.542028, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
 									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
 									name = "a2",
@@ -175,31 +175,31 @@ return {
 							name = "group_6",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.42585, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/shared/klima1_lod1.msh",
 							name = "klima",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.62603, 0.068545, 3.97, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/glas.mtl", },
 							mesh = "msh/brmz403_3/scheiben_lod0.msh",
 							name = "fenster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/innen.mtl", },
 							mesh = "msh/brmz403_3/innen_lod1.msh",
 							name = "innen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/innen.mtl", },
-							mesh = "msh/sitze_restaurant_lod1.msh",
+							mesh = "msh/brmz403_3/sitze_restaurant_lod1.msh",
 							name = "innen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/shared/rumpf_ohne_lod1.msh",
 							name = "nase",
@@ -212,30 +212,30 @@ return {
 				visibleFrom = 200,
 				visibleTo = 500,
 			},
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/brmz403_3/rumpf_lod2.msh",
 							name = "rumpf",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							children = {
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/bogie1_lod2.msh",
 									name = "bogie1_lod2_3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.576094, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
 									name = "rad_lod2_4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
 									name = "rad_lod2_5",
@@ -245,21 +245,21 @@ return {
 							name = "group_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.36585, 0, 0, 1, },
 						},
-						{ 
+						{
 							children = {
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/bogie1_lod2.msh",
 									name = "bogie1_lod2_7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.542028, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
 									name = "rad_lod2_8",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
 									name = "rad_lod2_9",
@@ -269,13 +269,13 @@ return {
 							name = "group_6",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.42585, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/glas.mtl", },
 							mesh = "msh/brmz403_3/scheiben_lod0.msh",
 							name = "fenster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/brmz403_3/rumpf_klima.mtl", },
 							mesh = "msh/shared/rumpf_ohne_lod2.msh",
 							name = "nase",
@@ -289,30 +289,30 @@ return {
 				visibleTo = 2200,
 			},
 		},
-		metadata = { 
-			availability = { 
+		metadata = {
+			availability = {
 				yearFrom = 2019,
 				yearTo = 0,
 			},
-			cost = { 
+			cost = {
 				price = -1,
 			},
-			description = { 
+			description = {
 				name = _("ICE3_BRmz403.3_restaurant_fake_name"),
 			},
-			emissions = { 
-				noise = { 
+			emissions = {
+				noise = {
 					idle = -1,
 					power = -1,
 					speed = -1,
 				},
-				pollution = { 
+				pollution = {
 					idle = -1,
 					power = -1,
 					speed = -1,
 				},
 			},
-			landVehicle = { 
+			landVehicle = {
 				brakeDeceleration = 2.5,
 				engines = { },
 				friction = 0.02,
@@ -320,41 +320,41 @@ return {
 				weightEmpty = 51000,
 				weightMaxPayload = 0,
 			},
-			maintenance = { 
+			maintenance = {
 				lifespan = 36525,
 				runningCosts = -1,
 			},
-			railVehicle = { 
-				config = { 
+			railVehicle = {
+				config = {
 					axles = { "rad_lod0_4", "rad_lod0_5", "a1", "a2", "rad_lod1_4", "rad_lod1_5", "a1", "a2", "rad_lod2_4", "rad_lod2_5", "rad_lod2_8", "rad_lod2_9", },
 					fakeBogies = { },
 				},
 			},
-			seatProvider = { 
+			seatProvider = {
 				crewModels = { },
 				drivingLicense = "RAIL",
 				seats = { },
 			},
-			soundConfig = { 
-				soundSet = { 
+			soundConfig = {
+				soundSet = {
 					name = "::/vehicle/waggon/shared/sound/waggon_modern.snd",
 				},
 			},
-			transformatorConfig = { 
+			transformatorConfig = {
 				skipFromLod = 1,
-				transformator = { 
+				transformator = {
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
 			},
-			transportVehicle = { 
+			transportVehicle = {
 				carrier = "RAIL",
 				compartments = {
-					{ 
+					{
 						loadConfigs = {
-							{ 
-								cargoEntry = { 
+							{
+								cargoEntry = {
 									capacity = 4,
-									cargoTypeSet = { 
+									cargoTypeSet = {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
