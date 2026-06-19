@@ -1,10 +1,10 @@
 {
-    "name": "ICE 3 of Deutsche Bahn",
+    "name": "ICE 3 (Class 403/406) of Deutsche Bahn",
     "summary": "The third and fastest generation of the ICE development.",
     "description": "As the successor to ICE 1 and 2, the third generation of the ICE was put into operation in the year of 2000 right in time for the EXPO in Hanover. They are the first trains of Deutsche Bahn that can reach a top speed of 330 km/h. In contrast to the older ICE generations, there are no longer any multiple units, but the drives are distributed underfloor across the entire train.\nThere are two different series: the multi-system train with approval for Germany, Switzerland, Austria, France, the Netherlands and Belgium carries the designation 406, the single-system trains are run as series 403. Since 2025 the multi-system trains are scraped at Deutsche Bahn.",
     "localization" : {
         "de": {
-            "name": "ICE 3 der Deutschen Bahn",
+            "name": "ICE 3 (BR 403/406) der Deutschen Bahn",
             "summary": "Die dritte und schnellste Generation der ICE-Entwicklung.",
             "description": "Als Nachfolger des ICE 1 und 2 wurde die dritte Generation des ICE zur EXPO in Hannover im Jahr 2000 in Betrieb genommen. Sie sind die ersten Züge der Deutsschen Bahn, die eine Höchstgeschwindigkeit von 330 km/h erreichen können. Im Gegensatz zu den älteren ICE-Generationen gibt es keine Triebwagen mehr, sondern die Antriebe sind Unterflur über den ganzen Zug verteilt. Es gibt zwei verschiedene Baureihen: der Mehrsystemzug mit Zulassung für Deutschland, Schweiz, Österreich, Frankreich, Niederlande und Belgien trägt die Baureihenbezeichnung 406, die Einsystemzüge werden als Baureihe 403 geführt. Seit 2025 sind die Mehrsystemzüge bei der Deutschen Bahn ausgemustert."
         }
@@ -18,5 +18,5 @@
     "tags": [
         "Multiple Unit"
     ],
-    "url": "https://modwerkstatt.com/downloads/tpf3/ice-3"
+    "url": "https://modwerkstatt.com/downloads/tpf3/ice-3-br-403-406"
 }
