@@ -1,14 +1,14 @@
 ﻿function data()
 return {
 	vehicles = {
-		{ name = "vehicle/train/ICE3/BR406/apmzf406.0_hispeed.mdl", forward = true },
-        { name = "vehicle/waggon/ICE3/BR406/avmz406.1_hispeed.mdl", forward = true },
-        { name = "vehicle/waggon/ICE3/BR406/bvmz406.2_hispeed.mdl", forward = false },
-        { name = "vehicle/waggon/ICE3/BR406/brmz406.3_hispeed.mdl", forward = false },
-        { name = "vehicle/waggon/ICE3/BR406/bpmbz406.8_hispeed.mdl", forward = true },
-        { name = "vehicle/waggon/ICE3/BR406/bpmz406.7_hispeed.mdl", forward = true },
-        { name = "vehicle/waggon/ICE3/BR406/bpmz406.6_hispeed.mdl", forward = false },
-        { name = "vehicle/train/ICE3/BR406/bpmzf406.5_hispeed.mdl", forward = false },
+		{ name = "apmzf406_0_hispeed.mdl", forward = true },
+        { name = "avmz406_1_hispeed.mdl", forward = true },
+        { name = "bvmz406_2_hispeed.mdl", forward = false },
+        { name = "brmz406_3_hispeed.mdl", forward = false },
+        { name = "bpmbz406_8_hispeed.mdl", forward = true },
+        { name = "bpmz406_7_hispeed.mdl", forward = true },
+        { name = "bpmz406_6_hispeed.mdl", forward = false },
+        { name = "bpmzf406_5_hispeed.mdl", forward = false },
 	},
 	name = _("ICE3_BR406_1_hispeed_name"),
 	desc = _("ICE3_BR406_1_hispeed_desc"),
