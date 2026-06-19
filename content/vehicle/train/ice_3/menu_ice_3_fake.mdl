@@ -1,21 +1,21 @@
 function data()
-return { 
-		boundingInfo = { 
+return {
+		boundingInfo = {
 			bbMax = { 1.5, 1.5, 1.5, },
 			bbMin = { -1.5, -1.5, -1.5, },
 		},
-		collider = { 
-			params = { 
+		collider = {
+			params = {
 				halfExtents = { 1.5, 1.5, 1.5, },
 			},
 			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			type = "BOX",
 		},
 		lods = {
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
+						{
 							materials = { "::/placeholders/mat/missing_object.mtl", },
 							mesh = "::/placeholders/msh/cube_1x1_lod0.msh",
 							name = "cube_1x1_lod0_1",
@@ -29,26 +29,26 @@ return {
 				visibleTo = 500,
 			},
 		},
-		metadata = { 
-			availability = { 
+		metadata = {
+			availability = {
 				yearFrom = 1,
 				yearTo = 1,
 			},
-			cost = { 
+			cost = {
 				price = 0,
 			},
-			description = { 
-				name = _("menu_ice_4_fake"),
+			description = {
+				name = _("menu_ice_3_fake"),
 			},
-			emissions = { 
-				noise = { 
+			emissions = {
+				noise = {
 					score = 40,
 				},
-				pollution = { 
+				pollution = {
 					score = 25,
 				},
 			},
-			landVehicle = { 
+			landVehicle = {
 				brakeDeceleration = 2.5,
 				engines = { },
 				friction = 0.02,
@@ -56,27 +56,27 @@ return {
 				weightEmpty = 0,
 				weightMaxPayload = 0,
 			},
-			maintenance = { 
+			maintenance = {
 				lifespan = 0,
 				runningCosts = 0,
 			},
-			railVehicle = { 
-				config = { 
+			railVehicle = {
+				config = {
 					axles = { },
 					fakeBogies = { },
 				},
 			},
-			seatProvider = { 
+			seatProvider = {
 				crewModels = { },
 				drivingLicense = "RAIL",
 				seats = {
-					{ 
+					{
 						animation = "driving_upright",
 						crew = true,
 						group = "cube_1x1_lod0_1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.62, -0.85, 1.8, 1, },
 					},
-					{ 
+					{
 						animation = "driving_upright",
 						crew = true,
 						forward = false,
@@ -85,26 +85,26 @@ return {
 					},
 				},
 			},
-			soundConfig = { 
-				soundSet = { 
+			soundConfig = {
+				soundSet = {
 					name = "",
 				},
 			},
-			transformatorConfig = { 
+			transformatorConfig = {
 				skipFromLod = 1,
-				transformator = { 
+				transformator = {
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
 			},
-			transportVehicle = { 
+			transportVehicle = {
 				carrier = "RAIL",
 				compartments = {
-					{ 
+					{
 						loadConfigs = {
-							{ 
-								cargoEntry = { 
+							{
+								cargoEntry = {
 									capacity = 0,
-									cargoTypeSet = { 
+									cargoTypeSet = {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
