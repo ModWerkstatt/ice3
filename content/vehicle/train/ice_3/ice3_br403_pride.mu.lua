@@ -12,7 +12,7 @@ return {
 	},
 	name = _("ICE3_BR403_1_pride_name"),
 	desc = _("ICE3_BR403_1_desc") .. _("ICE3_pride_desc"),
-   groupFileName = "menu_ice_3.mdl",
+    groupFileName = "menu_ice_3.mdl",
 	filterTags = { "default" },
 }
 end

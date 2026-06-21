@@ -1,0 +1,1316 @@
+function data()
+return {
+		boundingInfo = {
+			bbMax = { 12.39, 1.45884, 4.26582, },
+			bbMin = { -12.39, -1.45884, -0.05485, },
+		},
+		collider = {
+			params = {
+				halfExtents = { 12.39, 1.45884, 2.16034, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.10548, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/bpmbz403_8/rumpf_lod0.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									params = {
+										id = "ani/steps/step_1l_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									params = {
+										id = "ani/steps/step_1l_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/steps/step_1l_open.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/steps/step_1l_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/tritt1l_lod0.msh",
+							name = "tritt1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1091, -1.33965, 0.719314, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									params = {
+										id = "ani/steps/step_1r_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									params = {
+										id = "ani/steps/step_1r_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/steps/step_1r_open.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/steps/step_1r_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/tritt1r_lod0.msh",
+							name = "tritt1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1091, 1.33965, 0.719314, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									params = {
+										id = "ani/steps/step_2l_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									params = {
+										id = "ani/steps/step_2l_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/steps/step_2l_open.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/steps/step_2l_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/tritt2l_lod0.msh",
+							name = "tritt1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1091, -1.33965, 0.719314, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									params = {
+										id = "ani/steps/step_2r_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									params = {
+										id = "ani/steps/step_2r_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/steps/step_2r_open.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/steps/step_2r_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/tritt2r_lod0.msh",
+							name = "tritt1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1091, 1.33965, 0.719314, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer1l_lod0.msh",
+							name = "tur1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1096, -1.36417, 2.19963, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer1r_lod0.msh",
+							name = "tur1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1096, 1.36417, 2.19963, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer2l_lod0.msh",
+							name = "tur1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1096, -1.36417, 2.19963, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer2r_lod0.msh",
+							name = "tur1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1091, 1.36523, 2.19963, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie1_lod0.msh",
+									name = "bogie1_lod0_11",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.576094, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "rad_lod0_12",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "rad_lod0_13",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
+								},
+							},
+							name = "group_10",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.36585, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie1_lod0.msh",
+									name = "bogie1_lod0_15",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.542028, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "rad_lod0_16",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "rad_lod0_17",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
+								},
+							},
+							name = "group_14",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.42585, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/klima2_lod0.msh",
+							name = "klima",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.62603, -0.018528, 3.78897, 1, },
+						},
+						{
+							materials = { "mat/bpmbz403_8/glas.mtl", },
+							mesh = "msh/bpmbz403_8/scheiben_lod0.msh",
+							name = "fenster",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmbz403_8/innen.mtl", },
+							mesh = "msh/bpmbz403_8/innen_lod0.msh",
+							name = "innen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/rumpf_ohne_lod0.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmz403_7/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/isolator1_lod0.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmz403_7/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/isolator2_lod0.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/bpmbz403_8/rumpf_lod1.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									params = {
+										id = "ani/steps/step_1l_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									params = {
+										id = "ani/steps/step_1l_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/steps/step_1l_open.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/steps/step_1l_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/tritt1l_lod0.msh",
+							name = "tritt1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1091, -1.33965, 0.719314, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									params = {
+										id = "ani/steps/step_1r_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									params = {
+										id = "ani/steps/step_1r_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/steps/step_1r_open.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/steps/step_1r_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/tritt1r_lod0.msh",
+							name = "tritt1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1091, 1.33965, 0.719314, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									params = {
+										id = "ani/steps/step_2l_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									params = {
+										id = "ani/steps/step_2l_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/steps/step_2l_open.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/steps/step_2l_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/tritt2l_lod0.msh",
+							name = "tritt1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1091, -1.33965, 0.719314, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									params = {
+										id = "ani/steps/step_2r_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									params = {
+										id = "ani/steps/step_2r_close.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/steps/step_2r_open.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/steps/step_2r_open.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/tritt2r_lod0.msh",
+							name = "tritt1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1091, 1.33965, 0.719314, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer1l_lod0.msh",
+							name = "tur1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1096, -1.36417, 2.19963, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer1r_lod0.msh",
+							name = "tur1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1096, 1.36417, 2.19963, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer2l_lod0.msh",
+							name = "tur1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1096, -1.36417, 2.19963, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer2r_lod0.msh",
+							name = "tur1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1091, 1.36523, 2.19963, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie1_lod1.msh",
+									name = "bogie1_lod1_11",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.576094, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "rad_lod1_12",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "rad_lod1_13",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
+								},
+							},
+							name = "group_10",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.36585, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie1_lod1.msh",
+									name = "bogie1_lod1_15",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.542028, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "rad_lod1_16",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "rad_lod1_17",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
+								},
+							},
+							name = "group_14",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.42585, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmbz403_8/glas.mtl", },
+							mesh = "msh/bpmbz403_8/scheiben_lod0.msh",
+							name = "fenster",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmbz403_8/innen.mtl", },
+							mesh = "msh/bpmbz403_8/innen_lod1.msh",
+							name = "innen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/rumpf_ohne_lod1.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 500,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/bpmbz403_8/rumpf_lod2.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/doors/door_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer1l_lod0.msh",
+							name = "tur1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1096, -1.36417, 2.19963, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/doors/door_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer1r_lod0.msh",
+							name = "tur1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.1096, 1.36417, 2.19963, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = {
+									params = {
+										id = "ani/doors/door_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer2l_lod0.msh",
+							name = "tur1_L",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1096, -1.36417, 2.19963, 1, },
+						},
+						{
+							animations = {
+								close_all_doors = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = {
+									forward = false,
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = {
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = {
+									params = {
+										id = "ani/doors/door_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", "mat/bpmbz403_8/innen.mtl", "mat/avmz403_1/glas.mtl", },
+							mesh = "msh/shared/tuer2r_lod0.msh",
+							name = "tur1_R",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.1091, 1.36523, 2.19963, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie1_lod0.msh",
+									name = "bogie1_lod0_7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.576094, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "rad_lod2_8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "rad_lod2_9",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
+								},
+							},
+							name = "group_6",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.36585, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie1_lod0.msh",
+									name = "bogie1_lod0_11",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.542028, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "rad_lod2_12",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
+								},
+								{
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "rad_lod2_13",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
+								},
+							},
+							name = "group_10",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.42585, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmbz403_8/glas.mtl", },
+							mesh = "msh/bpmbz403_8/scheiben_lod0.msh",
+							name = "fenster",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/bpmbz403_8/serie2_rumpf_klima.mtl", },
+							mesh = "msh/shared/rumpf_ohne_lod0.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 2200,
+			},
+		},
+		metadata = {
+			availability = {
+				yearFrom = 2018,
+				yearTo = 0,
+			},
+			cost = {
+				price = -1,
+			},
+			description = {
+				name = _("ICE3_Bpmbz403.8_name"),
+			},
+			emissions = {
+				noise = {
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = {
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = {
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.02,
+				topSpeed = 91.6667,
+				weightEmpty = 47000,
+				weightMaxPayload = 0,
+			},
+			extent = { 
+				bbMax = { 12.39, 1.45884, 4.26582, },
+				bbMin = { -12.39, -1.45884, -0.05485, },
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMax = 89,
+						angleMin = 9,
+						color = { 1, 0.926131, 0.580392, },
+						fadeOutStart = 600,
+						invertMask = false,
+						length = 13,
+						lightId = "",
+						mask = 32,
+						meshId = "interior",
+						mode = "LIGHT",
+						radius = 3,
+						strength = 20,
+						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 3.5, 1, },
+						type = "CYLINDRICAL",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+				},
+			},
+			maintenance = {
+				lifespan = 36525,
+				runningCosts = -1,
+			},
+			railVehicle = {
+				config = {
+					axles = { "rad_lod0_12", "rad_lod0_13", "rad_lod0_16", "rad_lod0_17", "rad_lod1_12", "rad_lod1_13", "rad_lod1_16", "rad_lod1_17", "rad_lod2_8", "rad_lod2_9", "rad_lod2_12", "rad_lod2_13", },
+					fakeBogies = { },
+				},
+			},
+			seatProvider = {
+				crewModels = { },
+				drivingLicense = "RAIL",
+				seats = {
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.85, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.85, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.85, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.85, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.95, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.95, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.95, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.95, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.85, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.85, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.85, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.85, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.75, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.75, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.75, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.75, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.55, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.55, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.55, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.55, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.6, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.6, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.6, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.6, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.75, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.75, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.75, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.75, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.85, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						forward = false,
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.85, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.85, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.85, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.05, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.05, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.9, 0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.9, 1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.45, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.45, -0.55, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.525, -1.1, 1.2, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "rumpf",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.525, -0.55, 1.2, 1, },
+					},
+				},
+			},
+			soundConfig = {
+				soundSet = {
+					name = "/ice3_wagen",
+				},
+			},
+			transformatorConfig = {
+				skipFromLod = 1,
+				transformator = {
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = {
+				arrivalDelay = 4000,
+				carrier = "RAIL",
+				compartments = {
+					{
+						loadConfigs = {
+							{
+								cargoEntry = {
+									capacity = 52,
+									cargoTypeSet = {
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/passengers/passengers.cargo", },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				departureDelay = 5600,
+				engineTransportModes = { },
+				filterTags = { },
+				loadSpeed = 2,
+				reversible = true,
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

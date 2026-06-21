@@ -884,13 +884,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad_lod2_8",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad_lod2_9",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -908,13 +908,13 @@ return {
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "a1",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.21502, 0, 0.48923, 1, },
 								},
 								{ 
 									materials = { "mat/shared/drehgestell.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "a2",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21502, 0, 0.48923, 1, },
 								},
 							},
@@ -1010,7 +1010,7 @@ return {
 			},
 			railVehicle = { 
 				config = { 
-					axles = { "a1", "a2", "a3", "a4", "a1", "a2", "a3", "a4", "rad_lod2_8", "rad_lod2_9", "a1", "a2", },
+					axles = { "a1", "a2", "a3", "a4", },
 					fakeBogies = { },
 				},
 			},
@@ -1393,7 +1393,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/ice3_antrieb",
+					name = "sound/ice3_antrieb.snd",
 				},
 			},
 			transformatorConfig = { 
@@ -1413,9 +1413,9 @@ return {
 									capacity = 52,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = { "PASSENGERS", },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/passengers/passengers.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "",
 									seats = { },
