@@ -1079,7 +1079,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "sounds/ice3_antrieb.snd",
+					name = "sound/ice3_antrieb.snd",
 				},
 			},
 			transformatorConfig = { 
