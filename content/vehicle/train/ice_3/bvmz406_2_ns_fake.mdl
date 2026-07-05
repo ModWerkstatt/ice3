@@ -409,7 +409,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/ice3_antrieb",
+					name = "::/vehicle/waggon/shared/sound/waggon_modern.snd",
 				},
 			},
 			transformatorConfig = { 

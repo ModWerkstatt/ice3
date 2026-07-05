@@ -1533,7 +1533,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/ice3_kopf",
+					name = "sound/ice3_kopf.snd",
 				},
 			},
 			transformatorConfig = { 
