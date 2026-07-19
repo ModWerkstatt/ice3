@@ -1180,7 +1180,7 @@ return {
 				},
 			},
 			seatProvider = {
-				crewModels = { "/characters/era_c_driver_rail.mdl", },
+				crewModels = { "::/characters/era_c_driver_rail/era_c_driver_rail.mdl", },
 				drivingLicense = "RAIL",
 				seats = {
 					{
