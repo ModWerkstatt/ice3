@@ -421,12 +421,12 @@ return {
 				},
 			},
 			landVehicle = {
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 2.1,
 				engines = { },
 				friction = 0.02,
 				topSpeed = 91.6667,
 				weightEmpty = 47000,
-				weightMaxPayload = 0,
+				weightMaxPayload = 6500,
 			},
 			extent = { 
 				bbMax = { 12.39, 1.45884, 4.26582, },
@@ -737,7 +737,7 @@ return {
 				},
 			},
 			transformatorConfig = {
-				skipFromLod = 1,
+				skipFromLod = 2,
 				transformator = {
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
@@ -767,6 +767,44 @@ return {
 				},
 				departureDelay = 5600,
 				engineTransportModes = { },
+				entrances = {
+					{ 
+						path = {
+							{ -11.15, -3, 0.1, },
+							{ -11.15, -2, 0.1, },
+							{ -11.15, -1.6, 0.85, },
+							{ -11.15, -1, 1.3, },
+							{ -11.15, 0.3, 1.3, },
+						},
+					},
+					{ 
+						path = {
+							{ 11.15, -3, 0.1, },
+							{ 11.15, -2, 0.1, },
+							{ 11.15, -1.6, 0.85, },
+							{ 11.15, -1, 1.3, },
+							{ 11.15, 0.3, 1.3, },
+						},
+					},
+					{ 
+						path = {
+							{ 11.15, 3, 0.1, },
+							{ 11.15, 2, 0.1, },
+							{ 11.15, 1.6, 0.85, },
+							{ 11.15, 1, 1.3, },
+							{ 11.15, -0.3, 1.3, },
+						},
+					},
+					{ 
+						path = {
+							{ -11.15, 3, 0.1, },
+							{ -11.15, 2, 0.1, },
+							{ -11.15, 1.6, 0.85, },
+							{ -11.15, 1, 1.3, },
+							{ -11.15, -0.3, 1.3, },
+						},
+					},
+				},
 				filterTags = { },
 				loadSpeed = 2,
 				reversible = true,
