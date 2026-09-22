@@ -997,6 +997,50 @@ return {
 						},
 						{ 
 							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+							mesh = "msh/shared/licht_weiss_lod0.msh",
+							name = "headlights_fwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+							mesh = "msh/shared/licht_rot_lod0.msh",
+							name = "taillights_bwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
 								inner_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
@@ -1015,6 +1059,50 @@ return {
 							materials = { "mat/apmzf406_0/rumpf_klima.mtl", },
 							mesh = "msh/apmzf403_0/nase_offen_lod2.msh",
 							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+							mesh = "msh/shared/licht_weiss_lod0.msh",
+							name = "headlights_fwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+							mesh = "msh/shared/licht_rot_lod0.msh",
+							name = "taillights_bwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},

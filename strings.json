@@ -15,7 +15,7 @@
         "ICE3_BR406_1_gruen_name": "ICE 3 (Class 406 - 1. series) \"Green electricity\"",
         "ICE3_BR406_1_klima_name": "ICE 3 (Class 406 - 1. series) \"Climate saver\" (2019",
         "ICE3_BR406_1_europa_name": "ICE 3 (Class 406 - 1. series) Europe",
-        "ICE3_BR406_1_NS_name": "ICE 3 (Class 406 - 1. series) Nederlandse Spoorwegen",
+        "ICE3_BR406_1_ns_name": "ICE 3 (Class 406 - 1. series) Nederlandse Spoorwegen",
         "ICE3_BR406_1_hispeed_name": "ICE 3 (Class 406 - 1. series) NS hispeed",
         "ICE3_BR403_1_pride_name": "ICE 3 (BR 403 - 1. Serie) Pride",
 
@@ -62,7 +62,7 @@
         "ICE3_BR406_1_gruen_fake_name": "ICE 3 (Class 406 - 1. series) \"Green electricity\" FAKE",
         "ICE3_BR406_1_klima_fake_name": "ICE 3 (Class 406 - 1. series) \"Climate saver\" FAKE",
         "ICE3_BR406_1_europa_fake_name": "ICE 3 (Class 406 - 1. series) Europe FAKE",
-        "ICE3_BR406_1_NS_fake_name": "ICE 3 (Class 406 - 1. series) Nederlandse Spoorwegen FAKE",
+        "ICE3_BR406_1_ns_fake_name": "ICE 3 (Class 406 - 1. series) Nederlandse Spoorwegen FAKE",
         "ICE3_BR406_1_hispeed_fake_name": "ICE 3 (Class 406 - 1. series) NS hispeed FAKE",
 
         "ICE3_Apmzf403.0_fake_name": "1st class end car Apmzf 403.0 FAKE",
@@ -102,7 +102,7 @@
         "ICE3_BR406_1_gruen_name": "ICE 3 (BR 406 - 1. Serie) Ökostrom",
         "ICE3_BR406_1_klima_name": "ICE 3 (BR 406 - 1. Serie) Klimaschützer",
         "ICE3_BR406_1_europa_name": "ICE 3 (BR 406 - 1. Serie) Europa",
-        "ICE3_BR406_1_NS_name": "ICE 3 (BR 406 - 1. Serie) Nederlandse Spoorwegen",
+        "ICE3_BR406_1_ns_name": "ICE 3 (BR 406 - 1. Serie) Nederlandse Spoorwegen",
         "ICE3_BR406_1_hispeed_name": "ICE 3 (BR 406 - 1. Serie) NS hispeed",
         "ICE3_BR403_1_pride_name": "ICE 3 (BR 403 - 1. Serie) Pride",
 
@@ -152,7 +152,7 @@
         "ICE3_BR406_1_gruen_fake_name": "ICE 3 (BR 406 - 1. Serie) Ökostrom FAKE",
         "ICE3_BR406_1_klima_fake_name": "ICE 3 (BR 406 - 1. Serie) Klimaschützer FAKE",
 		"ICE3_BR406_1_europa_fake_name": "ICE 3 (BR 406 - 1. Serie) Europa FAKE",
-        "ICE3_BR406_1_NS_fake_name": "ICE 3 (BR 406 - 1. Serie) Nederlandse Spoorwegen FAKE",
+        "ICE3_BR406_1_ns_fake_name": "ICE 3 (BR 406 - 1. Serie) Nederlandse Spoorwegen FAKE",
         "ICE3_BR406_1_hispeed_fake_name": "ICE 3 (BR 406 - 1. Serie) NS hispeed FAKE",
 
         "ICE3_Apmzf403.0_fake_name": "1. Kl.-Endwagen Apmzf 403.0 FAKE",
