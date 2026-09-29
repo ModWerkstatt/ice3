@@ -1613,6 +1613,7 @@ return {
 				},
 				filterTags = { },
 				loadSpeed = 2,
+				comfortFactor = -1,
 				reversible = true,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
 			},
