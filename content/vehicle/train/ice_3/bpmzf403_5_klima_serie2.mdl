@@ -90,26 +90,26 @@ return {
 								close_all_doors = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -124,26 +124,26 @@ return {
 								close_all_doors = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -530,26 +530,26 @@ return {
 								close_all_doors = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -564,26 +564,26 @@ return {
 								close_all_doors = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -806,26 +806,26 @@ return {
 								close_all_doors = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/doors/door_1l.ani",
+										id = "ani/doors/door_1l_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -840,26 +840,26 @@ return {
 								close_all_doors = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/doors/door_1r.ani",
+										id = "ani/doors/door_1r_kopf.ani",
 									},
 									type = "FILE_REF",
 								},
