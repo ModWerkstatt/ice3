@@ -14,7 +14,7 @@ return {
 			map_albedo = {
 				fragmentSamplers = {
 					albedoTex = {
-						fileName = "tex/rumpf_albedo.dds",
+						fileName = "tex/rumpf_europa_albedo.dds",
 						type = "TWOD",
 					},
 				},
